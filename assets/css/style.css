@@ -125,8 +125,6 @@ html {
 }
 
 .header__navbar-mobile-icon {
-    height: 16px;
-    width: 16px;
     font-size: 2.4rem;
     color: var(--white-color);
     margin: 8px;

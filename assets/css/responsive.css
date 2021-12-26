@@ -10,7 +10,7 @@
         margin-bottom:-1px
     }
     .header__navbar {
-        padding: 8px;
+        padding: 16px;
     }
 
     .header__navbar-list {
@@ -25,7 +25,7 @@
 
     .home-section {
         height: 622px;
-        padding: 8px;
+        padding: 12px;
     }
 
     .home-wrap {
