@@ -1,0 +1,183 @@
+:root {
+    --primary-color: #ffbd39;
+    --white-color: #fff;
+    --black-color: #000;
+    --pink-color: #ff7f82;
+    --text-color: #999999;
+
+    --header-height: 82px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* 62.5% = 1rem 1.6rem = 16px*/
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Base */
+.btn {
+    font-size: 1.6rem;
+    color: var(--white-color);
+    letter-spacing: 1px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn + .btn {
+    margin-left: 28px;
+}
+
+.btn--primary {
+    color: var(--black-color);
+    background-color: var(--primary-color);
+}
+
+.btn--primary:hover {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    box-shadow: 0 0.5em 0.5em -0.4em var(--primary-color);
+    background-color: #1a1a1a;
+}
+
+.btn--outline-white {
+    color: var(--white-color);
+    border: .5px solid var(--white-color);
+}
+
+.btn--outline-white:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 0.5em 0.5em -0.4em var(--primary-color);
+    transition: all linear 0.1s;
+}
+
+/* Header Nav Bar */
+.header {
+    height: var(--header-height);
+    background-color: var(--black-color);
+}
+
+.header__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 0;
+}
+
+.header__navbar-name {
+    color: var(--white-color);
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    letter-spacing: 4px;
+}
+
+.header__navbar-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.header__navbar-item-link {
+    color: var(--white-color);
+    font-size: 1.6rem;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+}
+
+.header__navbar-item-link span{
+    padding: 8px 0;
+    position: relative;
+}
+
+.header__navbar-item-link span:hover {
+    color: var(--primary-color);
+}
+
+.header__navbar-item-link span::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    left: 50%;
+    width: 0;
+    background: var(--primary-color);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.header__navbar-item-link span:hover::after {
+    left: 0;
+    width: 100%;
+}
+
+.header__navbar-mobile-icon {
+    height: 16px;
+    width: 16px;
+    font-size: 2.4rem;
+    color: var(--white-color);
+    margin: 8px;
+    display: none;
+}
+
+/* Home Section */
+.home-section {
+    height: 750px;
+    padding-top: 60px;
+    background: var(--black-color);
+}
+
+.home-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__title {
+    width: 60%;
+}
+
+.home__title h3 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.home__title h1 {
+    color: var(--white-color);
+    font-size: 8rem;
+    letter-spacing: 2px;
+    line-height: 10rem;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.home__title span {
+    color: var(--primary-color);
+}
+
+.home__title-icons {
+    padding-top: 20px;
+}
+
+.home__title-icon {
+    font-size: 1.6rem;
+    padding-right: 6px;
+}
+
+.home__img img{
+    height: 72%;
+}
