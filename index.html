@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -27,10 +27,10 @@
                         <a href="" class="header__navbar-item-link"> <span>Home</span> </a>
                     </li>
                     <li class="header__navbar-item">
-                        <a href="" class="header__navbar-item-link"><span>About</span></a>
+                        <a href="#about" class="header__navbar-item-link"><span>About</span></a>
                     </li>
                     <li class="header__navbar-item">
-                        <a href="" class="header__navbar-item-link"><span>Skills</span></a>
+                        <a href="#skill" class="header__navbar-item-link"><span>Skills</span></a>
                     </li>
                     <li class="header__navbar-item">
                         <a href="" class="header__navbar-item-link"><span>Projects</span></a>
@@ -68,12 +68,132 @@
             </div>
         </div>
 
-        <div class="about-section">
-            
+        <div class="about-section" id="about">
+            <div class="grid wide">
+                <div class="about-wrap">
+                    <div class="about__img">
+                        <img src="./assets/img/hinh-anh.png" alt="">
+                    </div>
+        
+                    <div class="about__info">
+                        <div class="about__info-heading">
+                            <h1>About Me</h1>
+                            <h2>About</h2>
+                            <p>Huyy Nho (Le Ngoc Huy) is a Web Developer and also a Multimedia Designer, who loves art, creativity and technology.</p>
+                        </div>
+                        <div class="about__info-content">
+                            <ul class="about__info-list">
+                                <li class="about__info-item">
+                                    <span>Name:</span>
+                                    <span>Le Ngoc Huy</span>
+                                </li>
+                                <li class="about__info-item">
+                                    <span>Date of birth:</span>
+                                    <span>Gen Z</span>
+                                </li>
+                                <li class="about__info-item">
+                                    <span>Phone:</span>
+                                    <span>03873 88881</span>
+                                </li>
+                                <li class="about__info-item">
+                                    <span>Email:</span>
+                                    <span>huyynho@gmail.com</span>
+                                </li>
+                                <li class="about__info-item">
+                                    <span>Address:</span>
+                                    <span>Vung Tau, Viet Nam</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <div class="skill-section">
-            
+        <div class="skill-section" id="skill">
+            <div class="grid wide">
+                <div class="skill-wrap">
+                    <div class="skill__heading">
+                        <h1>My Skills</h1>
+                        <h2>Skills</h2>
+                        <p>“I'm not afraid of the unknown. Life is change, and I adapt. That's how I grow.”</p>
+                    </div>
+                    <div class="skill__content">
+                        <div class="row">
+                            <div class="col l-4 c-12">
+                                <a href="#" class="skill__card">
+                                    <div class="skill__card-icon">
+                                        <i class="fab fa-html5"></i>
+                                        <i class="fab fa-css3-alt"></i>
+                                    </div>
+                                    <div class="skill__card-desc">
+                                        <h3>HTML / CSS</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-4 c-12">
+                                <a href="#" class="skill__card">
+                                    <div class="skill__card-icon">
+                                        <i class="fab fa-js-square"></i>
+                                    </div>
+                                    <div class="skill__card-desc">
+                                        <h3>JAVASCRIP</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-4 c-12">
+                                <a href="#" class="skill__card">
+                                    <div class="skill__card-icon">
+                                        <i class="fab fa-react"></i>
+                                    </div>
+                                    <div class="skill__card-desc">
+                                        <h3>REACTJS</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Row 2 -->
+                        <div class="row">
+                            <div class="col l-4 c-12">
+                                <a href="#" class="skill__card">
+                                    <div class="skill__card-icon">
+                                        <i class="fab fa-node"></i>
+                                    </div>
+                                    <div class="skill__card-desc">
+                                        <h3>NODEJS</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-4 c-12">
+                                <a href="#" class="skill__card">
+                                    <div class="skill__card-icon">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="skill__card-desc">
+                                        <h3>ADOBE PHOTOSHOP</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-4 c-12">
+                                <a href="#" class="skill__card">
+                                    <div class="skill__card-icon">
+                                        <i class="far fa-edit"></i>
+                                    </div>
+                                    <div class="skill__card-desc">
+                                        <h3>ADOBE ILLUSTRATOR</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="project-section">

@@ -1,3 +1,4 @@
+/* Mobile */
 @media (max-width: 739px) {
     .btn--outline-white {
         color: var(--white-color);
@@ -61,5 +62,44 @@
 
     .home__img img{
         width: 86%;
+    }
+
+    /* ===================About=================== */
+
+    .about-section {
+        margin-top:-1px;
+        padding: 50 16px;
+    }
+    
+    .about__img img {
+        display: none;
+    }
+
+    .about__info-heading h1 {
+        margin-left: 0;
+    }
+
+    .about__info-heading h2 {
+        left: 0;
+        right: 0;
+    }
+
+    .about__info-heading p {
+        line-height: 2.6rem;
+        margin-left: 0;
+    }
+
+    .about__info-list {
+        text-align: left;
+    }
+
+    .about__info {
+        text-align: center;
+    }
+
+    /* ===================Skill=================== */
+    .skill-section {
+        margin-top:-1px;
+        padding: 60px 16px;
     }
 }
