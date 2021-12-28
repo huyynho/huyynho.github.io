@@ -115,6 +115,27 @@
         margin-left: 16px;
         margin-right: 16px;
     }
+
+    /* ===================Contact=================== */
+    .project__card {
+        margin: 26px 16px 0;
+        min-height: unset;
+    }
+
+    .contact__heading h2 {
+        top: -40px;
+        font-size: 8rem;
+    }
+    .contact__heading p {
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 20px;
+    }
+
+    .row {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }
 
 /* tablet */
