@@ -31,11 +31,12 @@
 
     .home-wrap {
         position: relative;
+        justify-content: center;
     }
 
     .home__title {
         position: absolute;
-        top: 360px;
+        top: 354px;
         text-align: center;
         width: 100%;
         z-index: 1;
@@ -55,8 +56,6 @@
     .home__img{
         position: absolute;
         top: 40px;
-        left: 0;
-        right: 0;
         text-align: center;
     }
 
@@ -102,4 +101,76 @@
         margin-top:-1px;
         padding: 60px 16px;
     }
+/* ===================Project=================== */
+    .project__card {
+        margin: 26px 16px 0;
+        min-height: unset;
+    }
+
+    .project__heading h2 {
+        top: -40px;
+        font-size: 8rem;
+    }
+    .project__heading p {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .header {
+        margin-bottom:-1px
+    }
+
+    .header__navbar-item-link {
+        padding: 10px 10px;
+    }
+
+    .home-section {
+        height: 534px;
+    }
+
+    .home__title h1 {
+        font-size: 6.5rem;
+        line-height: 9rem;
+    }
+
+    .home__img {
+        width: 42%;
+    }
+
+    .home__img img {
+        height: 65%;
+    }
+
+    .about-section {
+        margin-top:-1px;
+    }
+
+    .about__img {
+        display: none;
+    }
+
+    .about__info-heading h1 {
+        margin-left: 0;
+    }
+
+    .about__info-heading h2 {
+        left: 0;
+        right: 0;
+    }
+
+    .about__info {
+        text-align: center;
+    }
+
+    .about__info-list {
+        text-align: left;
+    }
+
+    .skill-section {
+        margin-top:-1px;
+    }
+
 }
