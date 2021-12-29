@@ -136,6 +136,10 @@
         margin-left: 16px;
         margin-right: 16px;
     }
+
+    .footer__text {
+        margin: 0 16px;
+    }
 }
 
 /* tablet */
